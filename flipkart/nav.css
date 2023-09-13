@@ -1,0 +1,128 @@
+.navbar,.navbar-inner-box,.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    background-color: #2874f0;
+    color: white;
+    height: 64px;
+    padding: 12px 28px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-items{
+    margin-inline: 8px;
+}
+.navbar-inner-box{
+    justify-content: space-between;
+    width: 990px;
+}
+.flipkart-logo{
+    width: 92px;
+    height: 22px;
+}
+.logo-part2{
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: italic;
+    
+}
+.logo-part2 a{
+    color: #9e9e9e;
+}
+.logo-part2 span{
+    color: #ffd140 ;
+    margin-inline:2px;
+}
+.logo-part2 img{
+    width: 10px;
+    height: 10px;
+}
+.header img{
+    width: 64px;
+    height: 64px;
+}
+
+
+.navbar-parts2-input{
+    min-width: 200px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 2px;
+   
+}
+.navbar-parts2-input input{
+    width: 472px;
+    height: 40px;
+    border-radius: 2px 0 0 2px;
+    border-style: none;
+    padding-left: 20px;
+    outline: none;
+}
+.navbar-parts2-input span{
+    background-color: white;
+    height: 40px;
+    border-style: none;
+    color: #2874f0;
+    display: inline-flex;
+    padding-right: 5px;
+    border-radius: 0 2px 2px 0;
+    font-weight: 400;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-font16{
+    font-size: 16px;
+}
+.navbar-parts4{
+    min-width: 130px;
+}
+.navbar-parts4, .navbar-parts5,.navbar-parts6{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.login-button{
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 2px;
+    color: #2874f0;
+    height: 35px;
+    padding: 0 40px;
+}
+.header{
+    justify-content: space-evenly;
+    margin: 10px 0;
+    height: 126px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.header-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-list-items{
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+}
+.header a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+.dropdown{
+    cursor: pointer;
+}
+.dropdown:hover{
+    transform: rotate(-90deg);
+    transition: 0.2s;
+}
